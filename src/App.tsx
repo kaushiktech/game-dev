@@ -1,4 +1,5 @@
 import {Grid, GridItem} from '@chakra-ui/react'
+import NavBar from "@/components/NavBar.tsx";
 
 
 
@@ -7,8 +8,8 @@ function App() {
         base:`"nav" "main"`,
         lg:`"nav nav" "aside main"`,
     }}>
-        <GridItem hideFrom="" area='nav' bg='coral'>
-            Nav
+        <GridItem hideFrom="" area='nav'>
+            <NavBar/>
         </GridItem>
 
 
